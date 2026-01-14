@@ -1,0 +1,59 @@
+/* id > class > type */
+* {
+    /* outline: 2px solid red; */
+    text-align: center;
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif
+}
+
+ul, 
+ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
+
+.title {
+    box-sizing: content-box;
+    padding: 10px;
+    border: 10px;
+    margin: 20px;
+    font-size: 50px;
+    color: blue;
+}
+
+.mainList {
+    font-size: 30px;
+}
+
+.ingredients {
+    padding: 20px 30px;
+    outline: 2px solid rgb(201, 59, 59);   
+    
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.chef {
+    box-sizing: content-box;
+    padding: auto;
+    outline: 2px solid red;
+}
+
+.spideyimg {
+    width: 400;
+    height: auto;
+}
+
+.homeButton {
+    padding: 10px 50px;
+    background-color: white;
+}
